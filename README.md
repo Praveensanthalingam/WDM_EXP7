@@ -67,8 +67,8 @@ def hits_algorithm(adjacency_matrix, max_iterations=100, tol=1.0e-6):
 # For simplicity, using a random adjacency matrix
 adj_matrix = np.array([
     [0, 1, 1],
-    [1, 0, 0],
-    [1, 0, 0]
+    [0, 0, 1],
+    [1, 1, 0]
 ])
 
 # Run HITS algorithm
@@ -109,7 +109,7 @@ plt.show()
 
 ### Output:
 
-<img width="905" height="848" alt="image" src="https://github.com/user-attachments/assets/d9b04352-f612-4d00-be9a-03f3cd60d5ca" />
+<img width="879" height="884" alt="image" src="https://github.com/user-attachments/assets/c622deab-b1a0-4b79-9e4d-0590d49f96aa" />
 
 
 ### Result:
